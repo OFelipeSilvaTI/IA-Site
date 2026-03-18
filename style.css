@@ -12,3 +12,9 @@ header{
     background-color: #2a2a55;
     padding: 10px;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
