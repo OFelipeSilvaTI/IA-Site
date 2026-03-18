@@ -8,13 +8,26 @@
     justify-content: center;
     color: azure;
 }
+
 header{
     background-color: #2a2a55;
     padding: 10px;
 }
 
-main {
+
+.intro {
     display: flex;
     justify-content: center;
     font-size: larger;
+}
+
+.titulos2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+p {
+  text-align: justify;
 }
