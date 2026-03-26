@@ -10,7 +10,7 @@
 }
 
 header{
-    background-color: #2a2a55;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
 }
 
@@ -30,4 +30,15 @@ header{
 
 p {
   text-align: justify;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+    background-image: url(Images/1244.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
