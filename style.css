@@ -5,6 +5,40 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+    background-color: #23232e;
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
 .hero {
     position: relative;
     height: 100vh;
@@ -57,4 +91,9 @@
 
 .btn:hover {
     background: #00a2d6;
+}
+
+body {
+    background-image: linear-gradient(to top, #173361 , #313562 , #472B52 , #391240 , #430849);
+    background-attachment: fixed;
 }
