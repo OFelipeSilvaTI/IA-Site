@@ -142,6 +142,17 @@ a:hover {
     list-style: none;
 }
 
+.credits a {
+    color: #00c3ff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.credits a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
 .footer-nav li {
     margin-bottom: 12px;
 }
@@ -164,6 +175,9 @@ a:hover {
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     font-size: 14px;
     opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 
@@ -304,7 +318,7 @@ a:hover {
 }
 
 
-/* CSS REDES NEURAIS */
+/* CSS REDES-NEURAIS.html */
 .bdRedes {
     background-image: linear-gradient(to right, #000F2F , #0C0813 , #005f5f);
     background-attachment: fixed;
@@ -331,7 +345,7 @@ a:hover {
     );
 }
 
-/* CSS REDES NEURAIS */
+/* CSS ÉTICA.html */
 .bdEtica {
     background-image: linear-gradient(to top, #000000 , #0C0C52 , #090A3A);
     background-attachment: fixed;
