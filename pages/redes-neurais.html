@@ -3,27 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redes Neurais - Por Trás dos Algoritmos</title>
+    <title>Redes Neurais — Por Trás dos Algoritmos</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body class="bdRedes">
+
     <header>
         <nav>
-            <a class="logo" href="../index.html"> Por Trás dos Algoritmos </a>
+            <a class="logo" href="../index.html">Por Trás dos Algoritmos</a>
             <ul class="nav-list">
                 <li><a href="../index.html">Início</a></li>
                 <li><a href="fundamentos.html">Fundamentos</a></li>
                 <li><a href="redes-neurais.html">Redes Neurais</a></li>
                 <li><a href="etica.html">Ética</a></li>
+                <li><a href="futuro.html">Futuro da IA</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="rdNeurais"> <div class="overlayRD"></div>
+    <section class="rdNeurais">
+        <div class="overlayRD"></div>
         <div class="content">
             <h1>Redes Neurais</h1>
             <p>
-                A arquitetura matemática inspirada na biologia: como neurônios 
+                A arquitetura matemática inspirada na biologia: como neurônios
                 artificiais processam camadas de informação complexa.
             </p>
             <a href="#artigo" class="btn">Explorar Arquitetura</a>
@@ -31,24 +35,81 @@
     </section>
 
     <main id="artigo" class="article-content">
-        
+
         <section>
             <h2>O que são Redes Neurais?</h2>
             <p>
-                As <strong>Redes Neurais Artificiais (RNAs)</strong> são sistemas de computação com nós interconectados que funcionam como os neurônios do cérebro humano. Elas são a base do que chamamos de <strong>Deep Learning</strong>.
+                As <strong>Redes Neurais Artificiais (RNAs)</strong> são sistemas computacionais formados
+                por nós interconectados que imitam, de forma simplificada, o funcionamento dos neurônios
+                do cérebro humano. Elas são a espinha dorsal do que chamamos de <strong>Deep Learning</strong>.
             </p>
             <p>
-                Cada conexão pode transmitir um sinal para outros neurônios. O "neurônio" receptor processa o sinal e sinaliza os neurônios conectados a ele, permitindo que a máquina reconheça padrões abstratos, como rostos em fotos ou a intenção em um texto.
+                Cada conexão entre neurônios carrega um <strong>peso</strong> — um número que indica o quanto
+                aquela ligação importa para a decisão final. Ao treinar a rede, esses pesos são ajustados
+                continuamente até que o modelo consiga reconhecer padrões com precisão.
             </p>
+            <div class="highlight-box">
+                <p>
+                    "Uma rede neural não é programada para reconhecer rostos. Ela aprende o que é um rosto
+                    depois de ver milhões deles — assim como nós aprendemos quando crianças."
+                </p>
+            </div>
         </section>
 
         <section>
             <h2>Anatomia de uma Rede</h2>
             <ul>
-                <li><strong>Camada de Entrada:</strong> Onde os dados brutos (pixels, áudio ou texto) entram no sistema.</li>
-                <li><strong>Camadas Ocultas:</strong> Onde a "mágica" acontece. São várias camadas que extraem características cada vez mais complexas dos dados.</li>
-                <li><strong>Camada de Saída:</strong> Onde a rede apresenta o resultado final, como a tradução de uma frase ou a classificação de uma imagem.</li>
+                <li>
+                    <strong>Camada de Entrada:</strong> Recebe os dados brutos — pixels de uma imagem,
+                    palavras de um texto ou valores numéricos. Cada entrada corresponde a um neurônio.
+                </li>
+                <li>
+                    <strong>Camadas Ocultas:</strong> Onde a mágica acontece. São diversas camadas que
+                    extraem características progressivamente mais abstratas: bordas → formas → objetos → conceitos.
+                </li>
+                <li>
+                    <strong>Camada de Saída:</strong> Apresenta o resultado final, seja uma classificação,
+                    uma tradução, uma resposta em linguagem natural ou uma previsão numérica.
+                </li>
             </ul>
+        </section>
+
+        <section>
+            <h2>Tipos de Redes Neurais</h2>
+            <ul>
+                <li>
+                    <strong>CNN (Redes Convolucionais):</strong> Especialistas em imagens. Detectam
+                    padrões visuais em camadas — da textura ao objeto inteiro. Base do reconhecimento facial
+                    e de carros autônomos.
+                </li>
+                <li>
+                    <strong>RNN (Redes Recorrentes):</strong> Projetadas para sequências, como texto e áudio.
+                    Possuem "memória" de curto prazo que permite entender contexto em frases.
+                </li>
+                <li>
+                    <strong>Transformers:</strong> A arquitetura por trás dos grandes modelos de linguagem como
+                    o ChatGPT. Usa um mecanismo de <em>atenção</em> para relacionar qualquer parte de um texto
+                    com qualquer outra, independente da distância.
+                </li>
+                <li>
+                    <strong>GAN (Redes Generativas):</strong> Duas redes que competem entre si — uma cria,
+                    a outra critica. O resultado são imagens, músicas e textos gerados artificialmente com
+                    qualidade impressionante.
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Por que "Deep" Learning?</h2>
+            <p>
+                O termo <strong>profundo</strong> refere-se ao número de camadas ocultas. Redes rasas
+                (com uma ou duas camadas) conseguem aprender padrões simples. Redes profundas, com dezenas
+                ou centenas de camadas, conseguem aprender representações extremamente complexas e abstratas.
+            </p>
+            <p>
+                Modelos como o GPT-4 possuem centenas de bilhões de parâmetros — cada um deles sendo um
+                peso ajustado durante o treinamento com quantidades imensas de dados.
+            </p>
         </section>
 
     </main>
@@ -59,7 +120,6 @@
                 <h3 class="logo">Por Trás dos Algoritmos</h3>
                 <p>Desmistificando a Inteligência Artificial para todos.</p>
             </div>
-            
             <div class="footer-section">
                 <h4>Navegação</h4>
                 <ul>
@@ -67,13 +127,16 @@
                     <li><a href="fundamentos.html">Fundamentos</a></li>
                     <li><a href="redes-neurais.html">Redes Neurais</a></li>
                     <li><a href="etica.html">Ética</a></li>
+                    <li><a href="futuro.html">Futuro da IA</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Por Trás dos Algoritmos | Desenvolvido por Felipe Silva e Felipe de Placo</p>
+            <p>&copy; 2026 Por Trás dos Algoritmos | Desenvolvido por Felipe Silva, Felipe de Placo e Lucca Rizzo</p>
             <p class="credits">Imagens por <a href="https://www.freepik.com" target="_blank">Freepik</a></p>
         </div>
     </footer>
+
 </body>
 </html>

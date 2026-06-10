@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamentos - Por Trás dos Algoritmos</title>
+    <title>Fundamentos — Por Trás dos Algoritmos</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body class="bdFundamentos">
+
     <header>
         <nav>
-            <a class="logo" href="../index.html"> Por Trás dos Algoritmos </a>
+            <a class="logo" href="../index.html">Por Trás dos Algoritmos</a>
             <ul class="nav-list">
                 <li><a href="../index.html">Início</a></li>
                 <li><a href="fundamentos.html">Fundamentos</a></li>
                 <li><a href="redes-neurais.html">Redes Neurais</a></li>
                 <li><a href="etica.html">Ética</a></li>
+                <li><a href="futuro.html">Futuro da IA</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
             </ul>
         </nav>
     </header>
@@ -24,7 +27,7 @@
         <div class="content">
             <h1>Fundamentos da IA</h1>
             <p>
-                A base de tudo: entenda como saímos de códigos estáticos 
+                A base de tudo: entenda como saímos de códigos estáticos
                 para sistemas que aprendem com a experiência.
             </p>
             <a href="#artigo" class="btn">Ler Artigo</a>
@@ -32,25 +35,73 @@
     </section>
 
     <main id="artigo" class="article-content">
-        
+
         <section>
             <h2>O Paradigma do Aprendizado</h2>
             <p>
-                Na computação tradicional, o programador cria regras explícitas. Na Inteligência Artificial, 
-                especialmente no <strong>Machine Learning</strong>, nós mudamos o foco para os dados.
+                Na computação tradicional, o programador cria regras explícitas para cada situação possível.
+                Na Inteligência Artificial, especialmente no <strong>Machine Learning</strong>, mudamos o foco:
+                em vez de escrever regras, fornecemos exemplos — e o algoritmo descobre os padrões por conta própria.
             </p>
             <p>
-                O fundamento principal é permitir que o algoritmo identifique padrões estatísticos por conta própria, 
-                ajustando seus parâmetros internos para minimizar erros a cada nova informação processada.
+                Imagine ensinar alguém a reconhecer um gato. Você não listaria todas as características possíveis.
+                Você simplesmente mostraria milhares de fotos de gatos e não-gatos, e a pessoa aprenderia sozinha.
+                É exatamente assim que o Machine Learning funciona.
+            </p>
+            <div class="highlight-box">
+                <p>
+                    "A inteligência não é programada — ela é treinada. Essa distinção muda completamente
+                    a forma como pensamos sobre software e sobre o que as máquinas são capazes de fazer."
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Como uma Máquina Aprende?</h2>
+            <p>
+                O processo de aprendizado envolve ajustar parâmetros internos chamados <strong>pesos</strong>.
+                O modelo faz uma previsão, compara com a resposta correta, calcula o erro e, em seguida,
+                ajusta seus pesos para errar menos na próxima vez. Esse ciclo se repete milhões de vezes.
+            </p>
+            <p>
+                Esse processo de correção é chamado de <strong>retropropagação (backpropagation)</strong>
+                e é o coração de praticamente todo sistema de IA moderno.
             </p>
         </section>
 
         <section>
-            <h2>Pilares Essenciais</h2>
+            <h2>Os Três Pilares Essenciais</h2>
             <ul>
-                <li><strong>Dados:</strong> O combustível fundamental. Sem dados variados, a IA não consegue generalizar conhecimento.</li>
-                <li><strong>Algoritmos:</strong> Os modelos matemáticos que processam os dados (como Regressões ou Árvores de Decisão).</li>
-                <li><strong>Processamento:</strong> O poder computacional necessário para realizar bilhões de cálculos por segundo.</li>
+                <li>
+                    <strong>Dados:</strong> O combustível fundamental. Sem dados variados e de qualidade,
+                    a IA não consegue generalizar conhecimento nem reconhecer padrões novos.
+                </li>
+                <li>
+                    <strong>Algoritmos:</strong> Os modelos matemáticos que processam os dados —
+                    desde Regressões Lineares simples até complexas Árvores de Decisão e Redes Neurais Profundas.
+                </li>
+                <li>
+                    <strong>Processamento:</strong> O poder computacional para realizar bilhões de cálculos
+                    por segundo. GPUs modernas tornaram possível o que era impraticável há uma década.
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tipos de Aprendizado</h2>
+            <ul>
+                <li>
+                    <strong>Supervisionado:</strong> O modelo aprende com exemplos rotulados — como
+                    fotos de animais já identificados. É o tipo mais comum e mais aplicado na prática.
+                </li>
+                <li>
+                    <strong>Não Supervisionado:</strong> O modelo encontra padrões nos dados sem
+                    rótulos. Usado para agrupamento e descoberta de estruturas ocultas.
+                </li>
+                <li>
+                    <strong>Por Reforço:</strong> O agente aprende tomando decisões e recebendo
+                    recompensas ou punições. Foi o que levou a IA a superar humanos no xadrez e no Go.
+                </li>
             </ul>
         </section>
 
@@ -62,7 +113,6 @@
                 <h3 class="logo">Por Trás dos Algoritmos</h3>
                 <p>Desmistificando a Inteligência Artificial para todos.</p>
             </div>
-            
             <div class="footer-section">
                 <h4>Navegação</h4>
                 <ul>
@@ -70,11 +120,13 @@
                     <li><a href="fundamentos.html">Fundamentos</a></li>
                     <li><a href="redes-neurais.html">Redes Neurais</a></li>
                     <li><a href="etica.html">Ética</a></li>
+                    <li><a href="futuro.html">Futuro da IA</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Por Trás dos Algoritmos | Desenvolvido por Felipe Silva e Felipe de Placo</p>
+            <p>&copy; 2026 Por Trás dos Algoritmos | Desenvolvido por Felipe Silva, Felipe de Placo e Lucca Rizzo</p>
             <p class="credits">Imagens por <a href="https://www.freepik.com" target="_blank">Freepik</a></p>
         </div>
     </footer>
